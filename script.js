@@ -1050,7 +1050,7 @@
       try {
         const response =
           await fetch(
-            "https://n8n-automation-aaih.onrender.com/webhook/theoDigitalTrigger",
+            "https://n8n-automation-aaih.onrender.com/webhook/theodigital-enquiry",
             {
               method:"POST",
               headers:{
