@@ -1051,7 +1051,7 @@
         const AUTOMATION_API = process.env.AUTOMATIONAPI;
         const response =
           await fetch(
-            AUTOMATION_API,
+            "https://n8n-automation-aaih.onrender.com/webhook/theoDigitalTrigger",
             {
               method:"POST",
               headers:{
