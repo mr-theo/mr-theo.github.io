@@ -1048,24 +1048,18 @@
       ===================================================== */
 
       try {
-
+        const AUTOMATION_API = process.env.AUTOMATIONAPI;
         const response =
           await fetch(
-            "https://n8n-automation-aaih.onrender.com/webhook-test/theoDigitalTrigger",
+            AUTOMATION_API,
             {
-
               method:"POST",
-
               headers:{
                 "Content-Type":
                   "application/json"
               },
-
               body:
-                JSON.stringify(
-                  payload
-                )
-
+                JSON.stringify(payload)
             }
           );
 
